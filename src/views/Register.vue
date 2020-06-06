@@ -59,6 +59,7 @@ export default class Register extends Vue {
       grid-column-start: 2;
       grid-column-end: 4;
       align-self: center;
+      cursor: pointer;
     }
   }
 }
