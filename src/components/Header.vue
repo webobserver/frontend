@@ -20,6 +20,7 @@ export default class Header extends Vue {}
 <style lang="scss" scoped>
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import "@/scss/_variables.scss";
+
 header {
   display: grid;
   grid-template-columns: 30% 70%; //TODO change on mobile
@@ -51,22 +52,22 @@ header {
     display: flex;
 
     /* a {
-                transition: background-color 1s, color 1s, border-color 1s;
-                margin: 10px;
-                display: inline-block;
-                background-color: rgba(61, 100, 41, 0.7);
-                border: solid black;
-                border-radius: 15px;
-                padding: 10px;
-                color: black;
-                text-decoration: none;
-            }
+                        transition: background-color 1s, color 1s, border-color 1s;
+                        margin: 10px;
+                        display: inline-block;
+                        background-color: rgba(61, 100, 41, 0.7);
+                        border: solid black;
+                        border-radius: 15px;
+                        padding: 10px;
+                        color: black;
+                        text-decoration: none;
+                    }
 
-            a:hover {
-                background-color: rgba(61, 100, 41, 0.3);
-                color: white;
-                border-color: white;
-            }*/
+                    a:hover {
+                        background-color: rgba(61, 100, 41, 0.3);
+                        color: white;
+                        border-color: white;
+                    }*/
   }
 }
 </style>
